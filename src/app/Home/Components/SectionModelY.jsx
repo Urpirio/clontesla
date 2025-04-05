@@ -3,9 +3,9 @@ import { BtnModelY_LearMore, BtnModelY_OrderNow } from "../Btns/Btn_SectionModel
 
 export default function SectionModelY() {
   return (
-    <section className="flex justify-center h-[100vh] items-start relative">
+    <section className="flex justify-center h-[100vh]  snap-y snap-start items-start relative">
       <article className="flex flex-col gap-5 justify-center items-center mt-20 z-20">
-        <div className="text-6xl text-white font-bold">
+        <div className="lg:text-6xl text-5xl text-white font-bold">
           <h2>Model Y</h2>
         </div>
         <div className="flex flex-col text-center text-xl font-semibold text-white">
@@ -18,7 +18,6 @@ export default function SectionModelY() {
         </div>
       </article>
       <ImgModelY/>
-     
     </section>
   )
 }

@@ -1,4 +1,5 @@
 import Header from "./Home/Components/Header";
+import SectionModel3 from "./Home/Components/SectionModel3";
 import SectionModelY from "./Home/Components/SectionModelY";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <body>
       <Header/>
       <SectionModelY/>
+      <SectionModel3/>
     </body>
   )
 }

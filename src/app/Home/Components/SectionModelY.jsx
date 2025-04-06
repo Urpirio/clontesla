@@ -1,5 +1,6 @@
 import { ImgModelY } from "../../../../public/SectionModelY/Img";
 import { BtnModelY_LearMore, BtnModelY_OrderNow } from "../Btns/Btn_SectionModelY";
+import Header from "./Header";
 
 export default function SectionModelY() {
   return (

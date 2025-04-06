@@ -2,6 +2,7 @@ import { LogoTesla } from "../../../../public/Header/Img";
 import { BtnGlobal, BtnPerfil, BtnSopport } from "../Btns/Btn_Header";
 
 export default function Header() {
+    
   return (
     <header className="flex items-center justify-between fixed w-[100%] p-3 z-50">
         <div className="flex flex-grow basis-0 justify-star text-white  h-3">

@@ -6,7 +6,7 @@ export default function GlobalSections() {
 
     const List = DatosSection.map( DS =>{
     return(
-        <section className="flex justify-center items-start relative h-[100vh] w-[100%]">
+        <section className="flex justify-center items-center relative h-[100vh] w-[100%]">
         <article className="flex flex-col items-center justify-between h-[100%] w-[100%] z-20">
             <div className="flex flex-col gap-2 text-center mt-20 text-white">
                 {DS.Modelo}

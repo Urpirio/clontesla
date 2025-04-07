@@ -1,7 +1,7 @@
-import Header from "./Home/Components/Header";
-import GlobalSections from "./Home/Components/GlobalSections";
-import SectionModelY from "./Home/Components/SectionModelY";
-import {ElementsMenuCharging, ElementsMenuEnergy, ElementsMenuVehicles }from "./Home/Components/ElementsMenu";
+import Header from "./Home/Components/Sections/Header";
+import GlobalSections from "./Home/Components/Sections/GlobalSections";
+import SectionModelY from "./Home/Components/Sections/SectionModelY";
+import {ElementsMenuCharging, ElementsMenuEnergy, ElementsMenuShop, ElementsMenuVehicles }from "./Home/Components/Elements/BodyMenu/ElementsMenu";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <ElementsMenuVehicles/>
       <ElementsMenuEnergy/>
       <ElementsMenuCharging/>
+      <ElementsMenuShop/>
       <SectionModelY/>
       <GlobalSections/>
     </body>

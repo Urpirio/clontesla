@@ -18,6 +18,7 @@ import { BtnAccesories } from "../Btns/Btn_SectionAccessories";
 
 export const DatosSection = [
     {
+        id: 2,
         Modelo: <h2 className="text-6xl font-bold">Model 3</h2>,
         AboutModel: `$299/mo Leasing With $1,000 Down`,
         LinkAboutModel: ``,
@@ -27,6 +28,7 @@ export const DatosSection = [
 
     },
     {
+        id: 3,
         Modelo: <ImgLogoCiber/>,
         AboutModel: '',
         LinkAboutModel: ``,
@@ -36,6 +38,7 @@ export const DatosSection = [
 
     },
     {
+        id: 4,
         Modelo: <h2 className="text-6xl font-bold">Model X</h2>,
         AboutModel: 'Free Supercharging Included',
         LinkAboutModel: ``,
@@ -45,6 +48,7 @@ export const DatosSection = [
 
     },
     {
+        id: 5,
         Modelo: <h2 className="text-6xl font-bold">Model S</h2>,
         AboutModel: 'Free Supercharging Included',
         LinkAboutModel: ``,
@@ -54,6 +58,7 @@ export const DatosSection = [
 
     },
     {
+        id: 6,
         Modelo: <h2 className="text-6xl font-bold">Solar Panels</h2>,
         AboutModel: 'Schedule a Virtual Consultation',
         LinkAboutModel: ``,
@@ -63,6 +68,7 @@ export const DatosSection = [
 
     },
     {
+        id: 7,
         Modelo: <h2 className="text-6xl font-bold">Solar Roof</h2>,
         AboutModel: 'Produce Clean Energy From Your Roof',
         LinkAboutModel: ``,
@@ -72,6 +78,7 @@ export const DatosSection = [
 
     },
     {
+        id: 8,
         Modelo: <h2 className="text-6xl font-bold">Powerwall</h2>,
         AboutModel: '',
         LinkAboutModel: ``,
@@ -81,6 +88,7 @@ export const DatosSection = [
 
     },
     {
+        id: 9,
         Modelo: <h2 className="text-6xl font-bold">Accessories</h2>,
         AboutModel: '',
         LinkAboutModel: ``,

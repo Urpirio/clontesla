@@ -1,8 +1,10 @@
 
 
+export let IsMenuDeploy = { Boleano: true,};
 
 export const DeployVehicles = () => {
-
+    IsMenuDeploy.Boleano = true;
+    document.getElementById('HeaderHome').style.position = 'fixed';
     for(let x = 1; x < 5; x++){
 
         if(x == 1){
@@ -28,7 +30,8 @@ export const DeployVehicles = () => {
 };
 
 export const DeployEnergy = () => {
-
+    IsMenuDeploy.Boleano = true;
+    document.getElementById('HeaderHome').style.position = 'fixed';
     for(let x = 1; x < 5; x++){
         if(x == 2){
             document.getElementById('LogoTesla').style.color = 'black';
@@ -53,7 +56,8 @@ export const DeployEnergy = () => {
 };
 
 export const DeployCharging = () => {
-
+    IsMenuDeploy.Boleano = true;
+    document.getElementById('HeaderHome').style.position = 'fixed';
     for(let x = 1; x < 5; x++){
         if(x == 3){
             document.getElementById('LogoTesla').style.color = 'black';
@@ -80,7 +84,7 @@ export const DeployCharging = () => {
 };
 
 export const DeployDiscover = () => {
-
+    
     for(let x = 1; x < 5; x++){
         document.getElementById(`Option${x}`).style.display = 'none';
     };
@@ -101,7 +105,8 @@ export const DeployDiscover = () => {
 };
 
 export const DeployShop = () => {
-
+    IsMenuDeploy.Boleano = true;
+    document.getElementById('HeaderHome').style.position = 'fixed';
     for(let x = 1; x < 5; x++){
         if(x == 4){
             document.getElementById('LogoTesla').style.color = 'black';

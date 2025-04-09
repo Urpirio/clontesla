@@ -1,10 +1,12 @@
+'use client';
 import { LogoTesla } from "../../../../../public/Header/Img";
 import { BtnGlobal, BtnPerfil, BtnSopport } from "@/app/Home/Btns/Btn_Header";
+import { DeployCharging, DeployDiscover, DeployEnergy, DeployShop, DeployVehicles } from "../../func/DeployMenu";
 
 export default function Header() {
     
   return (
-    <header className="flex items-center justify-between fixed w-[100%] p-3 z-50 transition-all  duration-300 hover:bg-white text-white hover:text-black ">
+    <header className="flex items-center justify-between absolute w-[100%] p-3 z-50 transition-all  duration-300 hover:bg-white text-white hover:text-black " >
         <div className="flex flex-grow basis-0 justify-star   h-3">
             <LogoTesla/>
         </div>
@@ -18,14 +20,14 @@ export default function Header() {
               [&ul>li]:duration-300
               [&ul>li]:cursor-pointer
             ">
-                <li>Vehicles</li>
-                <li>Energy</li>
-                <li>Charging</li>
-                <li>Discover</li>
-                <li>Shop</li>
+                <li onMouseEnter={DeployVehicles} className="Option1">Vehicles</li>
+                <li onMouseEnter={DeployEnergy} className="Option2">Energy</li>
+                <li onMouseEnter={DeployCharging} className="Option3">Charging</li>
+                {/* <li onMouseEnter={DeployDiscover} className="Option4">Discover</li> */}
+                <li onMouseEnter={DeployShop} className="Option4">Shop</li>
             </ul>
         </nav>
-        <div className="lg:flex hidden  justify-end gap-2 flex-grow basis-0">
+        <div className="lg:flex hidden  justify-end gap-2 flex-grow basis-0 " >
             <BtnSopport/>
             <BtnGlobal/>
             <BtnPerfil/>

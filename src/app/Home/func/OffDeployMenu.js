@@ -1,10 +1,5 @@
 import { IsMenuDeploy } from "./DeployMenu";
 
-// export let IsNotMenuDeploy = [
-//     {
-//         boleano: true,
-//     }
-// ];
 export const OffDeployMenu = () => {
     IsMenuDeploy.Boleano = false;
     document.getElementById('HeaderHome').style.position = 'absolute';

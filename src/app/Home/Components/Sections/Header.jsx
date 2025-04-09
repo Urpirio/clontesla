@@ -8,7 +8,7 @@ export default function Header() {
     
   return (
     <header onMouseEnter={HoverHeader_MouseEnter}
-    onMouseLeave={HoverHeader_MouseLeave} className="flex items-center justify-between absolute w-[100%] p-3 z-50 transition-all  duration-300 hover:bg-white text-white hover:text-black " >
+      onMouseLeave={HoverHeader_MouseLeave} className="flex items-center justify-between absolute w-[100%] p-3 z-50 transition-all  duration-300 hover:bg-white text-white hover:text-black " id="HeaderHome">
         <div className="flex flex-grow basis-0 justify-star   h-3">
             <LogoTesla/>
         </div>
@@ -22,11 +22,11 @@ export default function Header() {
               [&ul>li]:duration-300
               [&ul>li]:cursor-pointer
             ">
-                <li onMouseEnter={DeployVehicles} className="Option1">Vehicles</li>
-                <li onMouseEnter={DeployEnergy} className="Option2">Energy</li>
-                <li onMouseEnter={DeployCharging} className="Option3">Charging</li>
+                <li onMouseEnter={DeployVehicles} className="Option1 transition-all duration-200">Vehicles</li>
+                <li onMouseEnter={DeployEnergy} className="Option2 transition-all duration-200">Energy</li>
+                <li onMouseEnter={DeployCharging} className="Option3 transition-all duration-200">Charging</li>
                 {/* <li onMouseEnter={DeployDiscover} className="Option4">Discover</li> */}
-                <li onMouseEnter={DeployShop} className="Option4">Shop</li>
+                <li onMouseEnter={DeployShop} className="Option4 transition-all duration-200">Shop</li>
             </ul>
         </nav>
         <div className="lg:flex hidden  justify-end gap-2 flex-grow basis-0 " >

@@ -2,11 +2,13 @@
 import { LogoTesla } from "../../../../../public/Header/Img";
 import { BtnGlobal, BtnPerfil, BtnSopport } from "@/app/Home/Btns/Btn_Header";
 import { DeployCharging, DeployDiscover, DeployEnergy, DeployShop, DeployVehicles } from "../../func/DeployMenu";
+import { HoverHeader_MouseEnter, HoverHeader_MouseLeave } from "../../func/HoverHeader";
 
 export default function Header() {
     
   return (
-    <header className="flex items-center justify-between absolute w-[100%] p-3 z-50 transition-all  duration-300 hover:bg-white text-white hover:text-black " >
+    <header onMouseEnter={HoverHeader_MouseEnter}
+    onMouseLeave={HoverHeader_MouseLeave} className="flex items-center justify-between absolute w-[100%] p-3 z-50 transition-all  duration-300 hover:bg-white text-white hover:text-black " >
         <div className="flex flex-grow basis-0 justify-star   h-3">
             <LogoTesla/>
         </div>
